@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name = "masterpass"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = "0.4.1"
+eff-wordlist = "1.0.2"
+hkdf = "0.12.3"
+number-names = "0.2.0"
+rand = "0.8.4"
+rand_chacha = "0.3.1"
+rand_core = {version = "0.6", features = ["std"]}
+rpassword = "7.0.0"
+rust-crypto = "0.2.36"
